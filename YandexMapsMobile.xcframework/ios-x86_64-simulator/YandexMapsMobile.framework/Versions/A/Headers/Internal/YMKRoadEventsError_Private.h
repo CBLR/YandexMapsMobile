@@ -1,14 +1,3 @@
-#import <YandexMapsMobile/YMKRoadEventsError.h>
-
-#import <yandex/maps/mapkit/road_events/error.h>
-
-#import <memory>
-
-@interface YMKRoadEventsRoadEventFailedError ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::road_events::RoadEventFailedError>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::road_events::RoadEventFailedError>)nativeRoadEventFailedError;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e4c24e7663b1300c224966c4e50976350ce3f3c8b2afec9c3394aade0824f2c
+size 438

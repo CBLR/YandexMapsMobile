@@ -1,26 +1,3 @@
-#import <YandexMapsMobile/YMKMasstransitCommon.h>
-#import <YandexMapsMobile/YMKMasstransitThread.h>
-
-/**
- * :nodoc:
- * Contains YMKMasstransitLine information and all
- * YMKMasstransitThreadInfo associated with it.
- */
-@interface YMKMasstransitLineInfo : NSObject
-
-/**
- * Mass transit line.
- */
-@property (nonatomic, readonly, nonnull) YMKMasstransitLine *line;
-
-/**
- * Collection of thread data for each thread of the specified line.
- */
-@property (nonatomic, readonly, nonnull) NSArray<YMKMasstransitThreadInfo *> *threads;
-
-
-+ (nonnull YMKMasstransitLineInfo *)lineInfoWithLine:(nonnull YMKMasstransitLine *)line
-                                             threads:(nonnull NSArray<YMKMasstransitThreadInfo *> *)threads;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b2fc521a112582fd0fc750f9a0ea8ed9139db1b4fede4be8254733945faee90
+size 732

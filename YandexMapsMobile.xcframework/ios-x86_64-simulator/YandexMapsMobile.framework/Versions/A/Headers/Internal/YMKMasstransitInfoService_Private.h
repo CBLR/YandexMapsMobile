@@ -1,14 +1,3 @@
-#import <YandexMapsMobile/YMKMasstransitInfoService.h>
-
-#import <yandex/maps/mapkit/transport/masstransit/masstransit_info_service.h>
-
-#import <memory>
-
-@interface YMKMasstransitInfoService ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(std::unique_ptr<::yandex::maps::mapkit::transport::masstransit::MasstransitInfoService>)native;
-
-- (::yandex::maps::mapkit::transport::masstransit::MasstransitInfoService *)nativeMasstransitInfoService;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:a07b5b7f491bea39af8c02093139749250eeef548ff6c1134d9b05efa35e9802
+size 472

@@ -1,17 +1,3 @@
-#import <YandexMapsMobile/YMKMapWindow.h>
-#import <YandexMapsMobile/YRTSubscription.h>
-
-#import <yandex/maps/mapkit/map/map_window.h>
-#import <yandex/maps/runtime/ios/object.h>
-
-#import <memory>
-
-@interface YMKMapWindow ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::map::MapWindow>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::map::MapWindow>)nativeMapWindow;
-- (std::shared_ptr<::yandex::maps::mapkit::map::MapWindow>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:ddcededd1ea902e0d5c7cbf664143e53e2c91a6ee70653c453240c1aa0837861
+size 514

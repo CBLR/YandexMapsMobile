@@ -1,14 +1,3 @@
-#import <YandexMapsMobile/YMKPlacemark.h>
-
-#import <yandex/maps/mapkit/map/placemark.h>
-
-#import <memory>
-
-@interface YMKPlacemarkMapObject ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::map::PlacemarkMapObject>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::map::PlacemarkMapObject>)nativePlacemarkMapObject;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:a613d130079f1e991be207122e3f90f7be65f101a651a89710681d3b5bf82465
+size 394

@@ -1,27 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * Panorama coverage layer
- */
-@interface YMKPanoramaLayer : NSObject
-
-/**
- * Enables or disables the street coverage layer.
- */
-- (void)setStreetPanoramaVisibleWithOn:(BOOL)on;
-
-/**
- * Enables or disables the airship icons.
- */
-- (void)setAirshipPanoramaVisibleWithOn:(BOOL)on;
-
-/**
- * Tells if this object is valid or no. Any method called on an invalid
- * object will throw an exception. The object becomes invalid only on UI
- * thread, and only when its implementation depends on objects already
- * destroyed by now. Please refer to general docs about the interface for
- * details on its invalidation.
- */
-@property (nonatomic, readonly, getter=isValid) BOOL valid;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:444386aaf2f4a4ce9341873d09948cd2b7ac9a1c678d0a08e5b1581fbab6b216
+size 715

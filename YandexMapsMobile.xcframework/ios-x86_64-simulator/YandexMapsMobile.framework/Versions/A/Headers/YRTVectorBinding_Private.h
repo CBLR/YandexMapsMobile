@@ -1,14 +1,3 @@
-#pragma once
-
-#import <Foundation/Foundation.h>
-
-#include <yandex/maps/runtime/bindings/vector_cb.h>
-
-#include <memory>
-
-@interface YRTVectorBinding : NSArray
-
--(id)initWithNativeObject:(std::unique_ptr<yandex::maps::runtime::bindings::internal::VectorCbBase>)nativeObject;
--(yandex::maps::runtime::bindings::internal::VectorCbBase *)getNativeObject;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:85a00b16f5f8a1c397aea518a14a178707658d07d51d0a58c2d47d04bc17ad81
+size 357

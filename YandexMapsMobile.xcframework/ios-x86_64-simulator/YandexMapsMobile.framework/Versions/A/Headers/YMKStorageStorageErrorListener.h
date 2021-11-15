@@ -1,17 +1,3 @@
-#import <YandexMapsMobile/YRTLocalError.h>
-
-/**
- * Storage error listener. This is a listener to subscribe to storage
- * errors in managers that control some type of storage.
- */
-@protocol YMKStorageStorageErrorListener <NSObject>
-
-/**
- * Possible error types: - runtime.DiskCorruptError: Called if local
- * storage is corrupted. - runtime.DiskFullError: Called if local
- * storage is full. - runtime.DiskWriteAccessError : Called if the
- * application cannot get write access to local storage.
- */
-- (void)onStorageErrorWithError:(nonnull YRTLocalError *)error;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:31ac12476d5bee84aa6e6fe04c9b39d150695ec231b2994ce3c164494177b75a
+size 569

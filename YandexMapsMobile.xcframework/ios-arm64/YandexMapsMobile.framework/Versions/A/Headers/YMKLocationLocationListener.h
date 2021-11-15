@@ -1,20 +1,3 @@
-#import <YandexMapsMobile/YMKLocationStatus.h>
-
-@class YMKLocation;
-
-/**
- * The listener that handles the updates to the device location.
- */
-@protocol YMKLocationDelegate <NSObject>
-
-/**
- * Handle location update information,.
- */
-- (void)onLocationUpdatedWithLocation:(nonnull YMKLocation *)location;
-
-/**
- * Handle change in location provider status.
- */
-- (void)onLocationStatusUpdatedWithStatus:(YMKLocationStatus)status;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:8205cd7e84041bf00a95a15d39bdd956b5c9eafb74b63ac8ca3e1f7d185d60d4
+size 433

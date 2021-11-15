@@ -1,29 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * The type of map displayed.
- */
-typedef NS_ENUM(NSUInteger, YMKMapType) {
-    /**
-     * Do not use any of the predefined maps.
-     */
-    YMKMapTypeNone,
-    /**
-     * Raster map.
-     */
-    YMKMapTypeMap,
-    /**
-     * :nodoc:
-     * Default satellite map.
-     */
-    YMKMapTypeSatellite,
-    /**
-     * :nodoc:
-     * Satellite map with roads, placemarks and labels.
-     */
-    YMKMapTypeHybrid,
-    /**
-     * Vector map.
-     */
-    YMKMapTypeVectorMap
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:be558d71605e5474ba648a0a4a4bfc3bf48276fa23b257ff2bc4359fcce14480
+size 508

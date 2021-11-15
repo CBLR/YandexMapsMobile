@@ -1,18 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * This struct is here to automatically generate protobuf parsing
- * functions It is not to be used in platform code
- */
-@interface YMKTrajectorySegmentMetadata : NSObject
-
-@property (nonatomic, readonly) long long time;
-
-@property (nonatomic, readonly) NSUInteger duration;
-
-
-+ (nonnull YMKTrajectorySegmentMetadata *)trajectorySegmentMetadataWithTime:( long long)time
-                                                                   duration:( NSUInteger)duration;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:35cad3aff3ae1fa94ee8d74d121375c3ae2887822152cbf8a37f867f59903f5c
+size 515

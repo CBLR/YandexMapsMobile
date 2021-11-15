@@ -1,24 +1,3 @@
-#import <YandexMapsMobile/YMKBicycleWeight.h>
-#import <YandexMapsMobile/YMKGeometry.h>
-
-/**
- * Leg of the route.
- */
-@interface YMKBicycleLeg : NSObject
-
-/**
- * Quantitative characteristics of the route leg.
- */
-@property (nonatomic, readonly, nonnull) YMKBicycleWeight *weight;
-
-/**
- * Path of the route polyline for the route leg.
- */
-@property (nonatomic, readonly, nonnull) YMKSubpolyline *geometry;
-
-
-+ (nonnull YMKBicycleLeg *)legWithWeight:(nonnull YMKBicycleWeight *)weight
-                                geometry:(nonnull YMKSubpolyline *)geometry;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:5bed8e76eb065afa791865fcc917baf2f6e268c9e0664acd03ef1dc9f89e09a9
+size 566

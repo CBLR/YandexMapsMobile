@@ -1,19 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * The style of the model bounding box.
- */
-@interface YMKModelStyle : NSObject
-
-/**
- * Maximum linear size (other sides are calculated by using original
- * model scales) of the model bounding box in units. The size of the
- * unit is equal to the size of a pixel when the camera position's tilt
- * is equal to 0 and the scale factor is equal to 1.
- */
-@property (nonatomic, assign) float size;
-
-+ (nonnull YMKModelStyle *)modelStyleWithSize:( float)size;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:537b5fed0d88b64688bebc60eb2f6395c4628323a61b85de6decaa226d620d6c
+size 501

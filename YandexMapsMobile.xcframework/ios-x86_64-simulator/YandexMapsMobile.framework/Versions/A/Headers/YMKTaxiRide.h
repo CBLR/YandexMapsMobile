@@ -1,34 +1,3 @@
-#import <YandexMapsMobile/YMKLocalizedValue.h>
-#import <YandexMapsMobile/YMKTaxiMoney.h>
-
-/**
- * :nodoc:
- */
-@interface YMKTaxiRideOption : NSObject
-
-@property (nonatomic, readonly, nonnull) YMKLocalizedValue *waitingTime;
-
-@property (nonatomic, readonly, nonnull) YMKTaxiMoney *cost;
-
-@property (nonatomic, readonly) BOOL isMinPrice;
-
-
-+ (nonnull YMKTaxiRideOption *)rideOptionWithWaitingTime:(nonnull YMKLocalizedValue *)waitingTime
-                                                    cost:(nonnull YMKTaxiMoney *)cost
-                                              isMinPrice:( BOOL)isMinPrice;
-
-
-@end
-
-/**
- * :nodoc:
- */
-@interface YMKTaxiRideInfo : NSObject
-
-@property (nonatomic, readonly, nonnull) NSArray<YMKTaxiRideOption *> *rideOptions;
-
-
-+ (nonnull YMKTaxiRideInfo *)rideInfoWithRideOptions:(nonnull NSArray<YMKTaxiRideOption *> *)rideOptions;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:1cb7012e6fa0f558ea8f8f64ad258a8d7c9f48411d2d0fbabb7aa876798f69ac
+size 862

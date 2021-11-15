@@ -1,18 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@class YMKMapWindow;
-
-/**
- * Listener for MapWindow size changes.
- */
-@protocol YMKMapSizeChangedListener <NSObject>
-
-/**
- * Called when MapWindow handles the platform SizeChanged event. param@
- * absolute Screen coordinates.
- */
-- (void)onMapWindowSizeChangedWithMapWindow:(nonnull YMKMapWindow *)mapWindow
-                                   newWidth:(NSInteger)newWidth
-                                  newHeight:(NSInteger)newHeight;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:b25a1cb105dfaf48f82df5cc1a5094ebd5d0ec5f5dba4e2c02ecdc2f9e824c4c
+size 479

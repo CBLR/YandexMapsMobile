@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKObjectEvent.h>
-
-#import <yandex/maps/mapkit/layers/object_event.h>
-
-#import <memory>
-
-@interface YMKObjectEvent ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::layers::ObjectEvent>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::layers::ObjectEvent>)nativeObjectEvent;
-- (std::shared_ptr<::yandex::maps::mapkit::layers::ObjectEvent>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbefb49b3f7aa108f39e06c3bda2a79187980a1a30a4be44a4a7941ac47253ac
+size 452

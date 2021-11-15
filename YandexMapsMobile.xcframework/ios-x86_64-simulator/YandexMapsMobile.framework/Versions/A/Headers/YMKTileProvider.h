@@ -1,17 +1,3 @@
-#import <YandexMapsMobile/YMKRawTile.h>
-#import <YandexMapsMobile/YMKTileId.h>
-#import <YandexMapsMobile/YMKVersion.h>
-
-/**
- * Generates empty tiles.
- */
-@protocol YMKTileProvider <NSObject>
-
-/**
- * Called in a separate thread and generates an empty tile.
- */
-- (nonnull YMKRawTile *)loadWithTileId:(nonnull YMKTileId *)tileId
-                               version:(nonnull YMKVersion *)version
-                                  etag:(nonnull NSString *)etag;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8bb559b0a6fe1df41a045ad212fe91645fc9517eb6528903a8f7e73277cca9d
+size 467

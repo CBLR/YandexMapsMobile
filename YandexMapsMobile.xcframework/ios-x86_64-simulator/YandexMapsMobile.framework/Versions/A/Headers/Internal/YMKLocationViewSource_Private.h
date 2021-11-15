@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKLocationViewSource.h>
-
-#import <yandex/maps/mapkit/location/location_view_source.h>
-
-#import <memory>
-
-@interface YMKLocationViewSource ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::location::LocationViewSource>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::location::LocationViewSource>)nativeLocationViewSource;
-- (std::shared_ptr<::yandex::maps::mapkit::location::LocationViewSource>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:84c6e8cbca376d52adb35b8d4b152b559496c84b52148bfe90d7f800c2842785
+size 510

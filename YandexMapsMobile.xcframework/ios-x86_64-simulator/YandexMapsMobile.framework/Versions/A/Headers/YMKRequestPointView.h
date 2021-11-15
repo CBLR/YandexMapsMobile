@@ -1,36 +1,3 @@
-#import <YandexMapsMobile/YMKPlacemark.h>
-#import <YandexMapsMobile/YMKRequestPoint.h>
-
-@class YMKRequestPointView;
-
-/**
- * :nodoc:
- */
-@protocol YMKRequestPointViewListener <NSObject>
-
-- (void)onRequstPointViewsChanged;
-
-- (void)onRequestPointViewTapWithRequestPointView:(nonnull YMKRequestPointView *)requestPointView;
-
-@end
-
-/**
- * :nodoc:
- */
-@interface YMKRequestPointView : NSObject
-@property (nonatomic, readonly, nonnull) YMKRequestPoint *requestPoint;
-/**
- * Request point representation on the map.
- */
-@property (nonatomic, readonly, readonly, nonnull) YMKPlacemarkMapObject *appearance;
-
-/**
- * Tells if this object is valid or no. Any method called on an invalid
- * object will throw an exception. The object becomes invalid only on UI
- * thread, and only when its implementation depends on objects already
- * destroyed by now. Please refer to general docs about the interface for
- * details on its invalidation.
- */
-@property (nonatomic, readonly, getter=isValid) BOOL valid;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0079c3ef73860c5b5cb1e9c789f4dc31633d1c729a43d473ab03d1550b9716b
+size 996

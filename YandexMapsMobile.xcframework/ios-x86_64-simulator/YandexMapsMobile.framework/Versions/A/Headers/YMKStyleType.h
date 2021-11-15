@@ -1,20 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * :nodoc:
- * The style of the displayed map.
- */
-typedef NS_ENUM(NSUInteger, YMKStyleType) {
-    /**
-     * Default style for mobile maps applications.
-     */
-    YMKStyleTypeVMap2,
-    /**
-     * Style for Yandex.Navigator.
-     */
-    YMKStyleTypeVNav2,
-    /**
-     * Same as VMap2, but in vec3 format.
-     */
-    YMKStyleTypeVMap3
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:59cdb7c0ed5716e751ceb42f988a0d32d7e22cb62195873d393aa207ffbe1e34
+size 380

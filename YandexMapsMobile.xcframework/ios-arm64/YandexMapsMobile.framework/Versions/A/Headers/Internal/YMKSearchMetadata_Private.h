@@ -1,7 +1,3 @@
-#import <YandexMapsMobile/YMKSearchMetadata.h>
-
-#import <yandex/maps/mapkit/search/search_metadata.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c181e5237bce8c97ffdb81c54a40f49f9c38c6db05b104694c8c97162336f4bc
+size 216

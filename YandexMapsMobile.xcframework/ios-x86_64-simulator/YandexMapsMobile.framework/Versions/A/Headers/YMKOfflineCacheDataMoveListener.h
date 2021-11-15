@@ -1,27 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * @attention This feature is not available in the free MapKit version.
- *
- *
- * Listener for the information about operations.
- */
-@protocol YMKOfflineCacheDataMoveListener <NSObject>
-
-/**
- * Called when the operation makes progress. Percent is the rate of
- * completion in the range of 0 to 100.
- */
-- (void)onDataMoveProgressWithPercent:(NSInteger)percent;
-
-/**
- * Called when the request is completed.
- */
-- (void)onDataMoveCompleted;
-
-/**
- * Called when an error occurs.
- */
-- (void)onDataMoveErrorWithError:(nonnull NSError *)error;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:284ce1c8dfb3e70b50b6a01aff8ea556db97cdc148f2cf81c88e13651ec4e381
+size 584

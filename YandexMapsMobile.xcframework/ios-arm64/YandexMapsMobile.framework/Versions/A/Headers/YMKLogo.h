@@ -1,24 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@class YMKLogoAlignment;
-
-/**
- * The object that allows to control logo display properties.
- */
-@interface YMKLogo : NSObject
-
-/**
- * Set logo alignment in the container.
- */
-- (void)setAlignmentWithAlignment:(nonnull YMKLogoAlignment *)alignment;
-
-/**
- * Tells if this object is valid or no. Any method called on an invalid
- * object will throw an exception. The object becomes invalid only on UI
- * thread, and only when its implementation depends on objects already
- * destroyed by now. Please refer to general docs about the interface for
- * details on its invalidation.
- */
-@property (nonatomic, readonly, getter=isValid) BOOL valid;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:217fbf90e5093c22376b4712a163f18c9345c06bd378896ad84cd41344f987f5
+size 680

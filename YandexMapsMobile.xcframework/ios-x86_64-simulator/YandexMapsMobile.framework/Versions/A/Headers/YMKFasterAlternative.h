@@ -1,20 +1,3 @@
-#import <YandexMapsMobile/YMKDrivingRoute.h>
-#import <YandexMapsMobile/YMKLocalizedValue.h>
-
-/**
- * :nodoc:
- */
-@interface YMKFasterAlternative : NSObject
-@property (nonatomic, readonly, nonnull) YMKLocalizedValue *timeDifference;
-@property (nonatomic, readonly, readonly, nonnull) YMKDrivingRoute *route;
-
-/**
- * Tells if this object is valid or no. Any method called on an invalid
- * object will throw an exception. The object becomes invalid only on UI
- * thread, and only when its implementation depends on objects already
- * destroyed by now. Please refer to general docs about the interface for
- * details on its invalidation.
- */
-@property (nonatomic, readonly, getter=isValid) BOOL valid;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:097e0f78732ff5c93e2a5f173391750b1bbefe708d2c27018e4f86cc1c21f1f7
+size 703

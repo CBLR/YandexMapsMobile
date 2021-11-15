@@ -1,25 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@class YMKGeoObject;
-
-typedef void(^YMKGeoObjectSessionGeoObjectHandler)(
-    YMKGeoObject * _Nullable obj,
-    NSError * _Nullable error);
-
-/**
- * The interface for working with the session.
- */
-@interface YMKGeoObjectSession : NSObject
-
-/**
- * Cancels the current request.
- */
-- (void)cancel;
-
-/**
- * Retries the last request. Cancels the current request if it is
- * active.
- */
-- (void)retryWithGeoObjectHandler:(nonnull YMKGeoObjectSessionGeoObjectHandler)geoObjectHandler;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa20f4a091cc57db71c1b471b8ccc3c4c2314f0fd254338ab712d0279d8814cd
+size 519

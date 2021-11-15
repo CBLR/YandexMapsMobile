@@ -1,28 +1,3 @@
-#import <Foundation/Foundation.h>
-
-typedef NS_ENUM(NSUInteger, YMKMasstransitJamType) {
-    /**
-     * Unknown traffic intensity.
-     */
-    YMKMasstransitJamTypeUnknown,
-    /**
-     * Route is closed.
-     */
-    YMKMasstransitJamTypeClosed,
-    /**
-     * Route is clear.
-     */
-    YMKMasstransitJamTypeFree,
-    /**
-     * Light traffic on route.
-     */
-    YMKMasstransitJamTypeLight,
-    /**
-     * Heavy traffic on route.
-     */
-    YMKMasstransitJamTypeHard,
-    /**
-     * Very heavy traffic on route.
-     */
-    YMKMasstransitJamTypeVeryHard
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbad9d1c1f4506885758d593c6b371a636a2461de4ff5122b800fb5896557183
+size 561

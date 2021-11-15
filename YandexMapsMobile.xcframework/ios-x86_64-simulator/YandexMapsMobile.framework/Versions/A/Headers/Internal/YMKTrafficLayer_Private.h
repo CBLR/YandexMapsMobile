@@ -1,17 +1,3 @@
-#import <YandexMapsMobile/YMKTrafficLayer.h>
-#import <YandexMapsMobile/YRTSubscription.h>
-
-#import <yandex/maps/mapkit/traffic/traffic_layer.h>
-#import <yandex/maps/runtime/ios/object.h>
-
-#import <memory>
-
-@interface YMKTrafficLayer ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::traffic::TrafficLayer>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::traffic::TrafficLayer>)nativeTrafficLayer;
-- (std::shared_ptr<::yandex::maps::mapkit::traffic::TrafficLayer>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4fad88d16bc9c6217a9ca342afe2117fe63f54079539beaffe7c6a70c64209d
+size 551

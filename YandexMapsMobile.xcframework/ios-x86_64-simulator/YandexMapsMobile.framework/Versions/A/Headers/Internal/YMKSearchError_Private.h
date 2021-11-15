@@ -1,14 +1,3 @@
-#import <YandexMapsMobile/YMKSearchError.h>
-
-#import <yandex/maps/mapkit/search/error.h>
-
-#import <memory>
-
-@interface YMKSearchCacheUnavailableError ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::search::CacheUnavailableError>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::search::CacheUnavailableError>)nativeCacheUnavailableError;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f097b0a779aeb7db3959be6d7da8a6490aa66e8d12c5956038547d4aa4491a6
+size 419

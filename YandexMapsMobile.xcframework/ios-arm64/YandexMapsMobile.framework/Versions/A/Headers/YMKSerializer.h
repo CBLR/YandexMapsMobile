@@ -1,22 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@class YMKMasstransitRoute;
-
-@interface YMKMasstransitRouteSerializer : NSObject
-
-/**
- * Serializes the route.
- *
- * @return Route's serialized representation. Empty array in case of any
- * errors.
- */
-- (nonnull NSData *)saveWithRoute:(nonnull YMKMasstransitRoute *)route;
-
-/**
- * Deserializes the route.
- *
- * @return Deserialized Route. Null in case of any errors.
- */
-- (nullable YMKMasstransitRoute *)loadWithData:(nonnull NSData *)data;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c8afb80aec7bfdfd4ffea87b5c3a8aea170f37d024ccd140d89254e59f80e8a
+size 484

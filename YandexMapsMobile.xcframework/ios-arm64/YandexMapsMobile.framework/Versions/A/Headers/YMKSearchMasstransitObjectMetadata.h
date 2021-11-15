@@ -1,18 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * :nodoc:
- * Additional data for masstransit objects
- */
-@interface YMKSearchMassTransitObjectMetadata : NSObject
-
-/**
- * dummy field to make code generation work
- */
-@property (nonatomic, readonly) NSInteger reserved;
-
-
-+ (nonnull YMKSearchMassTransitObjectMetadata *)massTransitObjectMetadataWithReserved:( NSInteger)reserved;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bac7575fb10923e4256a79e7efeda0d98dbbbb9292902c90a5400fbbd15c931
+size 376

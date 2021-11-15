@@ -1,32 +1,3 @@
-#import <YandexMapsMobile/YRTMiidManager.h>
-
-#import <yandex/maps/runtime/init/miid_manager.h>
-
-#import <memory>
-
-namespace yandex {
-namespace maps {
-namespace runtime {
-namespace init {
-namespace ios {
-
-OnMiidReceived onMiidReceived(
-    YRTMiidDelegate handler);
-OnMiidError onMiidError(
-    YRTMiidDelegate handler);
-
-} // namespace ios
-} // namespace init
-} // namespace runtime
-} // namespace maps
-} // namespace yandex
-
-@interface YRTMiidManager ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::runtime::init::MiidManager>&)native;
-
-- (std::shared_ptr<::yandex::maps::runtime::init::MiidManager>)nativeMiidManager;
-- (std::shared_ptr<::yandex::maps::runtime::init::MiidManager>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:e683316e03ca124581282719f1907693c6af8f2b034fe6fff179bff9376c7535
+size 760

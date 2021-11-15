@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YRTCollection.h>
-
-#include <yandex/maps/runtime/any/collection.h>
-
-#include <memory>
-
-using yandex::maps::runtime::any::Collection;
-
-@interface YRTCollection ()
-
-- (id)initWithNativeObject:(std::shared_ptr<Collection>)nativeObject;
-
-- (std::shared_ptr<Collection>)getNativeObject;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:469f954b1d327b1e7017da62a5564eb1035168922525241d597aaafcb069c4fc
+size 313

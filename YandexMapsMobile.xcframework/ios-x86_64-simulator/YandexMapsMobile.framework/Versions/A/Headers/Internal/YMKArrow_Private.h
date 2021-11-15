@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKArrow.h>
-
-#import <yandex/maps/mapkit/map/arrow.h>
-
-#import <memory>
-
-@interface YMKArrow ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::map::Arrow>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::map::Arrow>)nativeArrow;
-- (std::shared_ptr<::yandex::maps::mapkit::map::Arrow>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:0570b929ea8b0c3021fbf6680b14d81cc6d14ad5ae7ef53576d3ac811b75c279
+size 397

@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKSublayerFeatureFilter.h>
-
-#import <yandex/maps/mapkit/map/sublayer_feature_filter.h>
-
-#import <memory>
-
-@interface YMKSublayerFeatureFilter ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::map::SublayerFeatureFilter>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::map::SublayerFeatureFilter>)nativeSublayerFeatureFilter;
-- (std::shared_ptr<::yandex::maps::mapkit::map::SublayerFeatureFilter>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:171815e9fb61b8785ea426e5ce2567058da9a0ec1851e4fe6ade74948901b2c2
+size 511

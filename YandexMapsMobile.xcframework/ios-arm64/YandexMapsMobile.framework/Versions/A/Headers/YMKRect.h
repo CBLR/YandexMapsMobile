@@ -1,23 +1,3 @@
-#import <UIKit/UIKit.h>
-
-/**
- * The rectangle to display on the map.
- */
-@interface YMKRect : NSObject
-
-/**
- * Minimum rectangle coordinates.
- */
-@property (nonatomic, readonly) CGPoint min;
-
-/**
- * Maximum rectangle coordinates.
- */
-@property (nonatomic, readonly) CGPoint max;
-
-
-+ (nonnull YMKRect *)rectWithMin:( CGPoint)min
-                             max:( CGPoint)max;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c5d6582f0383f1100a2e1e773a7098451f1439deb4c710dc63c2bfac5308936
+size 383

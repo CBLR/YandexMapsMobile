@@ -1,21 +1,3 @@
-#import <YandexMapsMobile/YMKSearchRelatedPlaces.h>
-
-/**
- * :nodoc:
- * Snippet data to get related adverts info.
- */
-@interface YMKSearchRelatedAdvertsObjectMetadata : NSObject
-
-/**
- * List of related advertized places.
- */
-@property (nonatomic, readonly, nonnull) NSArray<YMKSearchPlaceInfo *> *placesOnMap;
-
-@property (nonatomic, readonly, nonnull) NSArray<YMKSearchPlaceInfo *> *placesOnCard;
-
-
-+ (nonnull YMKSearchRelatedAdvertsObjectMetadata *)relatedAdvertsObjectMetadataWithPlacesOnMap:(nonnull NSArray<YMKSearchPlaceInfo *> *)placesOnMap
-                                                                                  placesOnCard:(nonnull NSArray<YMKSearchPlaceInfo *> *)placesOnCard;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f26f130dd85076761c44958337d614510b8aa703d1bf23fbc784ebd22b8db53
+size 703

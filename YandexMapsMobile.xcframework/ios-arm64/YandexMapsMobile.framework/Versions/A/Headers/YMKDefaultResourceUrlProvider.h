@@ -1,10 +1,3 @@
-#import <YandexMapsMobile/YMKResourceUrlProvider.h>
-
-// :nodoc:
-@interface YMKDefaultResourceUrlProvider : NSObject<YMKResourceUrlProvider>
-
-- (NSString *)formatUrlWithResourceId:(NSString *)resId;
-
-- (void)setUrlBase:(NSString *)urlBase;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:90ba7f36402bde0435b01389e380730a1de623ee5319e7faa572e1c21077b8ad
+size 245

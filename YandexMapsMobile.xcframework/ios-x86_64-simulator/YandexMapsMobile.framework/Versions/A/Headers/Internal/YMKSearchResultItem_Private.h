@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKSearchResultItem.h>
-
-#import <yandex/maps/mapkit/search/search_layer/search_result_item.h>
-
-#import <memory>
-
-@interface YMKSearchResultItem ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::search::search_layer::SearchResultItem>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::search::search_layer::SearchResultItem>)nativeSearchResultItem;
-- (std::shared_ptr<::yandex::maps::mapkit::search::search_layer::SearchResultItem>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:c31fe8f01cf88b305891f053ce33192dc05d3ddf14bb1680407c8a816bd12cc9
+size 543

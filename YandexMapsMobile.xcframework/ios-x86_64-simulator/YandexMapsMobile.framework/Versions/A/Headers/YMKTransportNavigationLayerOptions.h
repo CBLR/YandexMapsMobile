@@ -1,25 +1,3 @@
-#import <YandexMapsMobile/YMKTransportAnnotator.h>
-#import <YandexMapsMobile/YMKTransportCamera.h>
-#import <YandexMapsMobile/YMKTransportNavigation.h>
-
-/// :nodoc:
-/**
- * :nodoc:
- */
-@interface YMKTransportNavigationLayerOptions : NSObject
-
-@property (nonatomic, strong, nonnull) YMKTransportAnnotator *annotator;
-
-@property (nonatomic, strong, nonnull) YMKTransportNavigation *navigation;
-
-/**
- * Optional field, can be nil.
- */
-@property (nonatomic, strong, nullable) YMKTransportCamera *camera;
-
-+ (nonnull YMKTransportNavigationLayerOptions *)navigationLayerOptionsWithAnnotator:(nonnull YMKTransportAnnotator *)annotator
-                                                                         navigation:(nonnull YMKTransportNavigation *)navigation
-                                                                             camera:(nullable YMKTransportCamera *)camera;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:4fe26bacc1f5733dc7dcb183b5bdc1d092b0f49aecd28331bbd78a802cfbf4e2
+size 885

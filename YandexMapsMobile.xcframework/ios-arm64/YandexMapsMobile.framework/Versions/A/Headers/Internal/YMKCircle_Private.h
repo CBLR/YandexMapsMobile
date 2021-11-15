@@ -1,14 +1,3 @@
-#import <YandexMapsMobile/YMKCircle.h>
-
-#import <yandex/maps/mapkit/map/circle.h>
-
-#import <memory>
-
-@interface YMKCircleMapObject ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::map::CircleMapObject>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::map::CircleMapObject>)nativeCircleMapObject;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7e5828df5f62c010c50f3bd7d566c80d82d6b4bc4f9d25c36eb22ae080eda8f
+size 376

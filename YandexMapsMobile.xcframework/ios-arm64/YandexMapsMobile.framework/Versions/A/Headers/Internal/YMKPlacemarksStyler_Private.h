@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKPlacemarksStyler.h>
-
-#import <yandex/maps/mapkit/map/placemarks_styler.h>
-
-#import <memory>
-
-@interface YMKPlacemarksStyler ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::map::PlacemarksStyler>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::map::PlacemarksStyler>)nativePlacemarksStyler;
-- (std::shared_ptr<::yandex::maps::mapkit::map::PlacemarksStyler>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:cce9a199cf490a5c868a6048082b5ae898a2f7ff87ff1ace62f94d90ea251a2f
+size 475

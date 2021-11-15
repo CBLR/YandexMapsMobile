@@ -1,11 +1,3 @@
-#import <YandexMapsMobile/YMKSearchRoutePointObjectMetadata.h>
-
-#import <yandex/maps/mapkit/search/route_point_object_metadata.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
-
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:4135989e78a384e8a714f64b9dffce22f74dc39ecb29192b81ff212a372d5f40
+size 248

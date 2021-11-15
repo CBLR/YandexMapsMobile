@@ -1,16 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * The point of view.
- */
-typedef NS_ENUM(NSUInteger, YMKPointOfView) {
-    /**
-     * Point of View is centered on the screen.
-     */
-    YMKPointOfViewScreenCenter,
-    /**
-     * Point of View has an x-coordinate at the center of FocusRect and a
-     * y-coordinate at the center of the screen.
-     */
-    YMKPointOfViewAdaptToFocusRectHorizontally
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:47f945c4d9407828cda401fa0d56b13c3f258fc5f3b05d9e4f2496d79e070151
+size 396

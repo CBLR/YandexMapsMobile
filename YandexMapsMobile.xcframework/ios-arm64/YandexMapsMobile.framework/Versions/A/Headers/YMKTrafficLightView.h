@@ -1,28 +1,3 @@
-#import <YandexMapsMobile/YMKDrivingRoute.h>
-#import <YandexMapsMobile/YMKDrivingTrafficLight.h>
-#import <YandexMapsMobile/YMKPlacemark.h>
-
-/**
- * :nodoc:
- */
-@interface YMKTrafficLightView : NSObject
-@property (nonatomic, readonly, nonnull) YMKDrivingTrafficLight *trafficLight;
-/**
- * Representation of traffic light on map.
- */
-@property (nonatomic, readonly, readonly, nonnull) YMKPlacemarkMapObject *appearance;
-/**
- * The route to which this traffic light belongs.
- */
-@property (nonatomic, readonly, readonly, nonnull) YMKDrivingRoute *hostRoute;
-
-/**
- * Tells if this object is valid or no. Any method called on an invalid
- * object will throw an exception. The object becomes invalid only on UI
- * thread, and only when its implementation depends on objects already
- * destroyed by now. Please refer to general docs about the interface for
- * details on its invalidation.
- */
-@property (nonatomic, readonly, getter=isValid) BOOL valid;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5c5c3516cc50e4102bceb9e03214779dd18cdb9c54eb2f38ec085798f150bd9
+size 951

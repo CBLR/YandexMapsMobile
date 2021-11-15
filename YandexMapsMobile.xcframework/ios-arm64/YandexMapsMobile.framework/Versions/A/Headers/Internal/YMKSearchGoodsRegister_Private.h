@@ -1,9 +1,3 @@
-#import <YandexMapsMobile/YMKSearchGoodsRegister.h>
-
-#import <yandex/maps/mapkit/search/goods_register.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:a93ead491e7672d12b7dc9ca96773f8ecccdb1f2834447e207494b59e61da6bd
+size 222

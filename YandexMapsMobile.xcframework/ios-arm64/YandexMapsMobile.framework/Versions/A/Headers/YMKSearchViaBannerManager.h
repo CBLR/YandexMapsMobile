@@ -1,34 +1,3 @@
-#import <YandexMapsMobile/YMKGeoObject.h>
-#import <YandexMapsMobile/YMKGeometry.h>
-
-@class YMKSearchViaBannerSession;
-
-typedef void(^YMKSearchViaBannerSessionResponseHandler)(
-    YMKGeoObject * _Nullable banner);
-
-/**
- * :nodoc:
- * Session for requesting via banner for route.
- */
-@interface YMKSearchViaBannerSession : NSObject
-
-- (void)cancel;
-
-@end
-
-/**
- * :nodoc:
- * Allows to get via-point advertisement for the route.
- */
-@interface YMKSearchViaBannerManager : NSObject
-
-/**
- * Begins asynchronous request for via banner.
- *
- * @param route Route to request via banner advertisement for.
- * @param bannerListener Listener for result.
- */
-- (nonnull YMKSearchViaBannerSession *)requestViaBannerWithRoute:(nonnull YMKPolyline *)route
-                                                 responseHandler:(nonnull YMKSearchViaBannerSessionResponseHandler)responseHandler;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecee5aa53bdce03be6ee97ea15bd7d87c25752e941fa7ba6f06339102f758b4d
+size 877

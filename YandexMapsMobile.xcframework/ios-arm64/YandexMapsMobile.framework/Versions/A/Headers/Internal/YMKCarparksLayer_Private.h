@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKCarparksLayer.h>
-
-#import <yandex/maps/mapkit/directions/carparks/carparks_layer.h>
-
-#import <memory>
-
-@interface YMKCarparksLayer ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::directions::carparks::CarparksLayer>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::directions::carparks::CarparksLayer>)nativeCarparksLayer;
-- (std::shared_ptr<::yandex::maps::mapkit::directions::carparks::CarparksLayer>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:4af4956e9d1a1aadbf1647834b7594f3f1003b374205bc3636f5ba6be274f2b1
+size 521

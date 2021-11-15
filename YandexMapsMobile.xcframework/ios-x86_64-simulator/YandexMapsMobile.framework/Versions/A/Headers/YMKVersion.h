@@ -1,20 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * Dot-separated version string. Alphabetical symbols are ignored
- * without errors.
- *
- * Examples of correct versions: "1.2.3", "2.0.0-2", "2014.04.25", "42".
- */
-@interface YMKVersion : NSObject
-
-/**
- * Version string.
- */
-@property (nonatomic, readonly, nonnull) NSString *str;
-
-
-+ (nonnull YMKVersion *)versionWithStr:(nonnull NSString *)str;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cb0305b384326e3558399ca977871b8e6f8681908bc365de0276c922cdec136
+size 394

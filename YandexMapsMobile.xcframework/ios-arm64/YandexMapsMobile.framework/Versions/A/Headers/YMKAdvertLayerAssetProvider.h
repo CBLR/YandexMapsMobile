@@ -1,27 +1,3 @@
-#import <YandexMapsMobile/YMKGeoObject.h>
-
-#import <UIKit/UIKit.h>
-
-/**
- * :nodoc:
- * Label placement relatilve to an advert pin.
- */
-typedef NS_ENUM(NSUInteger, YMKAdvertLayerLabelPlacement) {
-    YMKAdvertLayerLabelPlacementLeft,
-    YMKAdvertLayerLabelPlacementRight
-};
-
-/**
- * :nodoc:
- * Interface for providing images to the advert layer.
- */
-@protocol YMKAdvertLayerAssetProvider <NSObject>
-
-/**
- * Returns an image of a label for an advert pin
- */
-- (nullable UIImage *)advertLabelImageWithGeoObject:(nonnull YMKGeoObject *)geoObject
-                                          nightMode:(BOOL)nightMode
-                                          placement:(YMKAdvertLayerLabelPlacement)placement;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:03a4e4949362a3532081841a37477e862bf1cfb3ff3b2f7784fefe0a8803f796
+size 708

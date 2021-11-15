@@ -1,25 +1,3 @@
-#import <YandexMapsMobile/YMKSublayerFeatureFilterType.h>
-
-/**
- * Provides interface to filter features in a sublayer.
- */
-@interface YMKSublayerFeatureFilter : NSObject
-/**
- * Describes how the specified class names should be filtered.
- */
-@property (nonatomic) YMKSublayerFeatureFilterType type;
-/**
- * Collection of tags to filter.
- */
-@property (nonatomic, nonnull) NSArray<NSString *> *tags;
-
-/**
- * Tells if this object is valid or no. Any method called on an invalid
- * object will throw an exception. The object becomes invalid only on UI
- * thread, and only when its implementation depends on objects already
- * destroyed by now. Please refer to general docs about the interface for
- * details on its invalidation.
- */
-@property (nonatomic, readonly, getter=isValid) BOOL valid;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbfe0dac33cf95a85e42c63739b41be4417889afc24522db7e826d0372f0b541
+size 794

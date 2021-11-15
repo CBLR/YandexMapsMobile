@@ -1,29 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * Time in I18nTime format.
- */
-@interface YMKTime : NSObject
-
-/**
- * Time value.
- */
-@property (nonatomic, readonly) long long value;
-
-/**
- * Time offset to account for time zones.
- */
-@property (nonatomic, readonly) NSInteger tzOffset;
-
-/**
- * The description of the timer.
- */
-@property (nonatomic, readonly, nonnull) NSString *text;
-
-
-+ (nonnull YMKTime *)timeWithValue:( long long)value
-                          tzOffset:( NSInteger)tzOffset
-                              text:(nonnull NSString *)text;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:126a8453fe17f74d3c101858f9a65b733b9a9f61648b1d77cad57300b04b018e
+size 555

@@ -1,36 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * :nodoc:
- */
-typedef NS_ENUM(NSUInteger, YMKRoadEventsEventTag) {
-    YMKRoadEventsEventTagOther,
-    YMKRoadEventsEventTagFeedback,
-    YMKRoadEventsEventTagChat,
-    /**
-     * Temporary issues
-     */
-    YMKRoadEventsEventTagDrawbridge,
-    YMKRoadEventsEventTagClosed,
-    YMKRoadEventsEventTagReconstruction,
-    YMKRoadEventsEventTagAccident,
-    YMKRoadEventsEventTagTrafficAlert,
-    /**
-     * Potentially dangerous zones
-     */
-    YMKRoadEventsEventTagDanger,
-    YMKRoadEventsEventTagSchool,
-    YMKRoadEventsEventTagOvertakingDanger,
-    YMKRoadEventsEventTagPedestrianDanger,
-    YMKRoadEventsEventTagCrossRoadDanger,
-    /**
-     * Traffic code control tags
-     */
-    YMKRoadEventsEventTagPolice,
-    YMKRoadEventsEventTagLaneControl,
-    YMKRoadEventsEventTagRoadMarkingControl,
-    YMKRoadEventsEventTagCrossRoadControl,
-    YMKRoadEventsEventTagNoStoppingControl,
-    YMKRoadEventsEventTagMobileControl,
-    YMKRoadEventsEventTagSpeedControl
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a3882a52a1d8de29cece56a49c784c7c982aec6e5f073462562903735b0154a
+size 1008

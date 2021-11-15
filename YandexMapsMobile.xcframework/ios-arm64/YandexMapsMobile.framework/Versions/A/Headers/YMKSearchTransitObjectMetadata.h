@@ -1,24 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * :nodoc:
- * Additional data for masstransit objects.
- */
-@interface YMKSearchTransitObjectMetadata : NSObject
-
-/**
- * Transit route ID.
- */
-@property (nonatomic, readonly, nonnull) NSString *routeId;
-
-/**
- * List of vehicle types.
- */
-@property (nonatomic, readonly, nonnull) NSArray<NSString *> *types;
-
-
-+ (nonnull YMKSearchTransitObjectMetadata *)transitObjectMetadataWithRouteId:(nonnull NSString *)routeId
-                                                                       types:(nonnull NSArray<NSString *> *)types;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:56b57540a1b062ff9c294f23d415687dba8815eab5ebdbb513d9e1eca547ca6b
+size 574

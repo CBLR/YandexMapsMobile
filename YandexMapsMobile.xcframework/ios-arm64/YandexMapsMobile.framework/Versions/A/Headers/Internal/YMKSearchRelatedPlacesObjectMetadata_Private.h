@@ -1,7 +1,3 @@
-#import <YandexMapsMobile/YMKSearchRelatedPlacesObjectMetadata.h>
-
-#import <yandex/maps/mapkit/search/related_places_object_metadata.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:27ee5375b012b666be01f6bced2974686d4b99436d82074909432c27d5d3155b
+size 250

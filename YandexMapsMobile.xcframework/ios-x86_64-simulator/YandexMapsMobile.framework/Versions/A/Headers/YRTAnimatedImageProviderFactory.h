@@ -1,10 +1,3 @@
-#import <Foundation/Foundation.h>
-#import <YandexMapsMobile/YRTAnimatedImage.h>
-
-@interface YRTAnimatedImageProviderFactory : NSObject
-
-+ (id)fromFile:(NSString*)path;
-+ (id)fromData:(NSData*)data;
-+ (id)fromAnimatedImage:(YRTAnimatedImage*)animatedImage;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:fdd9b1ec151ba5432f0be29001b5d3f263b706452eb3d9961ab5629e54b537c3
+size 262

@@ -1,35 +1,3 @@
-#import <YandexMapsMobile/YMKAttribution.h>
-
-/**
- * Snippet with encyclopedia data.
- */
-@interface YMKSearchEncyclopediaObjectMetadata : NSObject
-
-/**
- * Encyclopedia article title.
- *
- * Optional field, can be nil.
- */
-@property (nonatomic, readonly, nullable) NSString *title;
-
-/**
- * Encyclopedia article body.
- *
- * Optional field, can be nil.
- */
-@property (nonatomic, readonly, nullable) NSString *description;
-
-/**
- * Attribution information.
- *
- * Optional field, can be nil.
- */
-@property (nonatomic, readonly, nullable) YMKAttribution *attribution;
-
-
-+ (nonnull YMKSearchEncyclopediaObjectMetadata *)encyclopediaObjectMetadataWithTitle:(nullable NSString *)title
-                                                                         description:(nullable NSString *)description
-                                                                         attribution:(nullable YMKAttribution *)attribution;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f200d070d6faab20731dc446c6df4c88376fc9c63e7496e2d5fccfe57498a93
+size 923

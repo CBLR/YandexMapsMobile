@@ -1,7 +1,3 @@
-#import <YandexMapsMobile/YMKBicycleSummary.h>
-
-#import <yandex/maps/mapkit/transport/bicycle/summary.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:18c3d2881c1c42a4eba6c9efc3396321127495520b02d29e5bcc70e20ce6f374
+size 219

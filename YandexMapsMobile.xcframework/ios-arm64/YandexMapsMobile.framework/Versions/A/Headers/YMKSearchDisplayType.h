@@ -1,20 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * Result display type.
- */
-typedef NS_ENUM(NSUInteger, YMKSearchDisplayType) {
-    /**
-     * Each result makes sense without the others (i.e. toponyms), they
-     * probably shouldn'be displayed as a group, and probably there's no
-     * need to make additional requests after user moves the map or zooms in
-     * or out.
-     */
-    YMKSearchDisplayTypeSingle,
-    /**
-     * Results are meaningful as a group (i.e. category query), they should
-     * be displayed all together, and it makes sense to send additional
-     * requests after user changes visible map region.
-     */
-    YMKSearchDisplayTypeMultiple
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbcd1e4a9351e7951ab5ce80cf0288184eb4e41cb42912e2facb7a1f89d0e704
+size 659

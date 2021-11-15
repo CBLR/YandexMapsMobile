@@ -1,29 +1,3 @@
-#import <YandexMapsMobile/YMKLocalizedValue.h>
-
-/**
- * Numeric characteristics of a route or a route section.
- */
-@interface YMKMasstransitWeight : NSObject
-
-/**
- * Travel time for a route or a route section.
- */
-@property (nonatomic, readonly, nonnull) YMKLocalizedValue *time;
-
-/**
- * Distance of the pedestrian part of the route or a route section.
- */
-@property (nonatomic, readonly, nonnull) YMKLocalizedValue *walkingDistance;
-
-/**
- * The number of transfers for a route or a route section.
- */
-@property (nonatomic, readonly) NSUInteger transfersCount;
-
-
-+ (nonnull YMKMasstransitWeight *)weightWithTime:(nonnull YMKLocalizedValue *)time
-                                 walkingDistance:(nonnull YMKLocalizedValue *)walkingDistance
-                                  transfersCount:( NSUInteger)transfersCount;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:a05a4ed777ca4069b26a87892932020b5ee46d4085853f4a0a35f29f5d7df962
+size 824

@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKSearchBitmapDownloader.h>
-
-#import <yandex/maps/mapkit/search/bitmap_downloader.h>
-
-#import <memory>
-
-@interface YMKSearchBitmapDownloader ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::search::BitmapDownloader>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::search::BitmapDownloader>)nativeBitmapDownloader;
-- (std::shared_ptr<::yandex::maps::mapkit::search::BitmapDownloader>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2bb9042e03851c6e0b85ae851134cf9814b9b37d0b853917d66ad80cd5ad156
+size 499

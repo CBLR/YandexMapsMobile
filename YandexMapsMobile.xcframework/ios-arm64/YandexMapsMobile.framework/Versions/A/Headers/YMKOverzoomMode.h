@@ -1,19 +1,3 @@
-#import <Foundation/Foundation.h>
-
-typedef NS_ENUM(NSUInteger, YMKOverzoomMode) {
-    /**
-     * Overzoom is fully disabled.
-     */
-    YMKOverzoomModeDisabled,
-    /**
-     * If a tile is absent or translucent, tiles from lower or higher zooms
-     * will be shown.
-     */
-    YMKOverzoomModeEnabled,
-    /**
-     * Same as Enabled, plus it fetches tiles well below absent or
-     * translucent tiles that don't have any overzoom tiles to replace them
-     * with.
-     */
-    YMKOverzoomModeWithPrefetch
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:3617158f7735e092e8df656934302ee60704655dfcc63d23aeafadc9d594b0f3
+size 511

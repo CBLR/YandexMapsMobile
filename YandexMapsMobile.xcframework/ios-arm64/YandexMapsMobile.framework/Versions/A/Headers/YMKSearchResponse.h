@@ -1,30 +1,3 @@
-#import <YandexMapsMobile/YMKGeoObjectCollection.h>
-#import <YandexMapsMobile/YMKSearchMetadata.h>
-
-/**
- * Top level structure for search response.
- */
-@interface YMKSearchResponse : NSObject
-
-/**
- * Extended response information.
- */
-@property (nonatomic, readonly, nonnull) YMKSearchMetadata *metadata;
-
-/**
- * List of objects (organizations, toponyms) in search response.
- */
-@property (nonatomic, readonly, nonnull) YMKGeoObjectCollection *collection;
-
-/**
- * Flag describing if this response was built offline.
- */
-@property (nonatomic, readonly) BOOL isOffline;
-
-
-+ (nonnull YMKSearchResponse *)responseWithMetadata:(nonnull YMKSearchMetadata *)metadata
-                                         collection:(nonnull YMKGeoObjectCollection *)collection
-                                          isOffline:( BOOL)isOffline;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:9473f23c40c4f3eb6d737e13b775523543c7609ef0022164ff4a7a23689cb2ba
+size 834

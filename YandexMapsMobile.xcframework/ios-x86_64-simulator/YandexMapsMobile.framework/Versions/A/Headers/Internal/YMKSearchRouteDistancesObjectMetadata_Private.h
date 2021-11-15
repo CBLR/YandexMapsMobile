@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKSearchRouteDistancesObjectMetadata.h>
-
-#import <yandex/maps/mapkit/search/route_distances_object_metadata.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
-
-
-
-
-
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:75c409ad6ad4b84982b343861b457ef395f7c6a768183a71528db58f657381c5
+size 260

@@ -1,17 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * An error has occurred.
- */
-@interface YRTError : NSObject
-
-/**
- * Tells if this object is valid or no. Any method called on an invalid
- * object will throw an exception. The object becomes invalid only on UI
- * thread, and only when its implementation depends on objects already
- * destroyed by now. Please refer to general docs about the interface for
- * details on its invalidation.
- */
-@property (nonatomic, readonly, getter=isValid) BOOL valid;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:1cf796e979471d1ed695d34101e9c0d71e53384d34c7d347674cfac5f784e601
+size 497

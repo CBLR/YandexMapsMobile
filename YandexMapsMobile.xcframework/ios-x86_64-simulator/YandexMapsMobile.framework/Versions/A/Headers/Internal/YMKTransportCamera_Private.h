@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKTransportCamera.h>
-
-#import <yandex/maps/mapkit/transport/navigation/layer/camera.h>
-
-#import <memory>
-
-@interface YMKTransportCamera ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::transport::navigation::layer::Camera>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::transport::navigation::layer::Camera>)nativeCamera;
-- (std::shared_ptr<::yandex::maps::mapkit::transport::navigation::layer::Camera>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:52f8623c7b860bb742f21f6a1d76f1019a9d982ab469827b343958780391a70b
+size 520

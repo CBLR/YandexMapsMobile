@@ -1,31 +1,3 @@
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-
-/// :nodoc:
-@interface YRTViewProvider : NSObject {
-    BOOL _cacheable;
-}
-
-/**
- * True if view provider is cacheable. False otherwise.
- */
-@property (nonatomic, readonly) BOOL cacheable;
-
-/**
- * Constructor of YRTViewProvider.
- * Attention!!! Blocks UI via executing snapshot function!
- */
-- (id)initWithUIView:(UIView*)view cacheable:(BOOL)cacheable;
-/**
- * Constructor of YRTViewProvider. Cacheable flag will have YES value by default.
- * Attention!!! Blocks UI via executing snapshot function!
- */
-- (id)initWithUIView:(UIView*)view;
-/**
- * Makes snapshot of the given view.
- * Attention!!! Blocks UI!
- */
-- (void)snapshot;
-
-@end
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecfa0250ed524339331834a0fbddd502384dea00f1237610411f35fe0d4fe9dc
+size 694

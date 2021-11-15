@@ -1,17 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@interface YMKHistoricalPanorama : NSObject
-
-@property (nonatomic, readonly, nonnull) NSString *name;
-
-@property (nonatomic, readonly, nonnull) NSString *panoramaId;
-
-@property (nonatomic, readonly, nonnull) NSDate *timestamp;
-
-
-+ (nonnull YMKHistoricalPanorama *)historicalPanoramaWithName:(nonnull NSString *)name
-                                                   panoramaId:(nonnull NSString *)panoramaId
-                                                    timestamp:(nonnull NSDate *)timestamp;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce6e0018795f1c1c49cd53ab2de7ff7c188c9c8e04a6e0353596c5c9393ebccf
+size 542

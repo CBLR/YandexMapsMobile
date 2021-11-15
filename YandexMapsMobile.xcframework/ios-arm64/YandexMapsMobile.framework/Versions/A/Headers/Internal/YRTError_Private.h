@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YRTError.h>
-
-#import <yandex/maps/runtime/error.h>
-
-#import <memory>
-
-@interface YRTError ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::runtime::Error>&)native;
-
-- (std::shared_ptr<::yandex::maps::runtime::Error>)nativeError;
-- (std::shared_ptr<::yandex::maps::runtime::Error>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2dc70adafa876042a1eb28d63f5080067e175bac6b6494471f78e7777c3bfc8
+size 382

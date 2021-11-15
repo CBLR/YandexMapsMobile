@@ -1,7 +1,3 @@
-#import <Foundation/Foundation.h>
-#import <YandexMapsMobile/YMKGeometry.h>
-
-#import <YandexMapsMobile/YRTExtern.h>
-
-YRT_EXTERN YMKPolyline* YMKMakeSubpolyline(YMKPolyline* polyline, YMKSubpolyline* subpolyline);
-YRT_EXTERN double YMKSubpolylineLength(YMKPolyline* polyline, YMKSubpolyline* subpolyline);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fbcdeae248415bd9264d56faae194ab2644d27e23ca10bea20369b817b22b04
+size 304

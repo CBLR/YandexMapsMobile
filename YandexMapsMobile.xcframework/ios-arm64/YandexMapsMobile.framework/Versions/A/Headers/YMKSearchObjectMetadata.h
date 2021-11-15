@@ -1,28 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * :nodoc:
- * General snippet.
- */
-@interface YMKSearchObjectMetadata : NSObject
-
-/**
- * Server-generated log identifier.
- *
- * Optional field, can be nil.
- */
-@property (nonatomic, readonly, nullable) NSString *logId;
-
-/**
- * Server-generated request identifier.
- *
- * Optional field, can be nil.
- */
-@property (nonatomic, readonly, nullable) NSString *reqId;
-
-
-+ (nonnull YMKSearchObjectMetadata *)searchObjectMetadataWithLogId:(nullable NSString *)logId
-                                                             reqId:(nullable NSString *)reqId;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f9ea7ffe79f7c000923dd1b408823a9016f65d4e3add5f3332f864371c67930
+size 598

@@ -1,27 +1,3 @@
-#import <YandexMapsMobile/YMKBicycleFlags.h>
-#import <YandexMapsMobile/YMKBicycleWeight.h>
-
-/**
- * Contains brief information associated with a route constructed by the
- * mass transit router.
- */
-@interface YMKBicycleSummary : NSObject
-
-/**
- * Quantitative characteristics of the route.
- */
-@property (nonatomic, readonly, nonnull) YMKBicycleWeight *weight;
-
-/**
- * Specific properties of the route.
- *
- * Optional field, can be nil.
- */
-@property (nonatomic, readonly, nullable) YMKBicycleFlags *flags;
-
-
-+ (nonnull YMKBicycleSummary *)summaryWithWeight:(nonnull YMKBicycleWeight *)weight
-                                           flags:(nullable YMKBicycleFlags *)flags;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:1979698281d2225c9ab9b0443ce51b0b2ff0226c938af60577160f19e442ced8
+size 682

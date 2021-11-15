@@ -1,7 +1,3 @@
-#import <YandexMapsMobile/YMKSearchToponymObjectMetadata.h>
-
-#import <yandex/maps/mapkit/search/toponym_object_metadata.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d698d566d629c6def5ac6158ddc8efd3764f497c69bea4b753729b051504a700
+size 237

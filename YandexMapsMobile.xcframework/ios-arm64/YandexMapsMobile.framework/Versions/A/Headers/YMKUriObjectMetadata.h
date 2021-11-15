@@ -1,33 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * URI that can be used for requests.
- */
-@interface YMKUri : NSObject
-
-/**
- * Gets URI.
- */
-@property (nonatomic, readonly, nonnull) NSString *value;
-
-
-+ (nonnull YMKUri *)uriWithValue:(nonnull NSString *)value;
-
-
-@end
-
-/**
- * URI metadata.
- */
-@interface YMKUriObjectMetadata : NSObject
-
-/**
- * Gets a list of URIs.
- */
-@property (nonatomic, readonly, nonnull) NSArray<YMKUri *> *uris;
-
-
-+ (nonnull YMKUriObjectMetadata *)uriObjectMetadataWithUris:(nonnull NSArray<YMKUri *> *)uris;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5d6642380809332748e09d247794c4cb7e2cb9dee3ed6cde66bab5bac816a9c
+size 531

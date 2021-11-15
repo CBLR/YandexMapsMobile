@@ -1,28 +1,3 @@
-#import <YandexMapsMobile/YMKMasstransitTravelEstimation.h>
-#import <YandexMapsMobile/YMKMasstransitWeight.h>
-
-/**
- * Contains brief information associated with a route constructed by the
- * mass transit router.
- */
-@interface YMKMasstransitSummary : NSObject
-
-/**
- * Contains the route time, distance of the walking part, and the number
- * of transfers.
- */
-@property (nonatomic, readonly, nonnull) YMKMasstransitWeight *weight;
-
-/**
- * Arrival and departure time estimations for time-dependent routes.
- *
- * Optional field, can be nil.
- */
-@property (nonatomic, readonly, nullable) YMKMasstransitTravelEstimation *estimation;
-
-
-+ (nonnull YMKMasstransitSummary *)summaryWithWeight:(nonnull YMKMasstransitWeight *)weight
-                                          estimation:(nullable YMKMasstransitTravelEstimation *)estimation;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:169908743756ba264631c68bbb2a06676ff96d323e36587a7b6d74646ef8be8f
+size 837

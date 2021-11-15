@@ -1,16 +1,3 @@
-#import <YandexMapsMobile/YMKColoredPolyline.h>
-#import <YandexMapsMobile/YRTSubscription.h>
-
-#import <yandex/maps/mapkit/map/colored_polyline.h>
-#import <yandex/maps/runtime/ios/object.h>
-
-#import <memory>
-
-@interface YMKColoredPolylineMapObject ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::map::ColoredPolylineMapObject>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::map::ColoredPolylineMapObject>)nativeColoredPolylineMapObject;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd4f8d967e3806e63c89268a1eb305730f6de1cbf0e043473eeb43a599b55bed
+size 519

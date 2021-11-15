@@ -1,9 +1,3 @@
-#import <YandexMapsMobile/YMKSearchShowtimesObjectMetadata.h>
-
-#import <yandex/maps/mapkit/search/showtimes_object_metadata.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e84ad7e774fa49fffa22f201c3f5ca1b6e827a7f5ce836554681325cd8711cf8
+size 243

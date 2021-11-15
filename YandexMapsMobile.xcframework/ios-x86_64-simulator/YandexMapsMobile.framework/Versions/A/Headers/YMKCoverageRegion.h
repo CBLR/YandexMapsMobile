@@ -1,30 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * :nodoc:
- * Represents one region of layer coverage.
- */
-@interface YMKCoverageRegion : NSObject
-
-/**
- * Region ID.
- */
-@property (nonatomic, readonly) NSInteger id;
-
-/**
- * Minimum zoom level.
- */
-@property (nonatomic, readonly) NSInteger zoomMin;
-
-/**
- * Maximum zoom level.
- */
-@property (nonatomic, readonly) NSInteger zoomMax;
-
-
-+ (nonnull YMKCoverageRegion *)regionWithId:( NSInteger)id
-                                    zoomMin:( NSInteger)zoomMin
-                                    zoomMax:( NSInteger)zoomMax;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:de08e00284bb8cb09644280baecc623a6b96b8943aa4b2d3a70720029d9b46b6
+size 570

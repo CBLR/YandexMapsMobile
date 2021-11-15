@@ -1,15 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@interface YMKAirshipTapInfo : NSObject
-
-/**
- * Panorama id of the tapped airship. The id may be used to open
- * panorama in the panorama player
- */
-@property (nonatomic, readonly, nonnull) NSString *panoramaId;
-
-
-+ (nonnull YMKAirshipTapInfo *)airshipTapInfoWithPanoramaId:(nonnull NSString *)panoramaId;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5bd1a01f36b36e6e50641f3da88bff03ceaa524c369934e630a6f80016c4e33
+size 348

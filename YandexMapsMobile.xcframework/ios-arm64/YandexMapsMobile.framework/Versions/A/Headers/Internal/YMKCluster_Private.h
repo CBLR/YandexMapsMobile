@@ -1,17 +1,3 @@
-#import <YandexMapsMobile/YMKCluster.h>
-#import <YandexMapsMobile/YRTSubscription.h>
-
-#import <yandex/maps/mapkit/map/cluster.h>
-#import <yandex/maps/runtime/ios/object.h>
-
-#import <memory>
-
-@interface YMKCluster ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::map::Cluster>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::map::Cluster>)nativeCluster;
-- (std::shared_ptr<::yandex::maps::mapkit::map::Cluster>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbed1dfb6f507eb3bc48aab7671573c4e565b1ff4fb9ca25e0b3dda1486c4ec3
+size 499

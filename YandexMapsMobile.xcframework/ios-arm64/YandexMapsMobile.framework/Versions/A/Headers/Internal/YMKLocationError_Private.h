@@ -1,14 +1,3 @@
-#import <YandexMapsMobile/YMKLocationError.h>
-
-#import <yandex/maps/mapkit/location/error.h>
-
-#import <memory>
-
-@interface YMKLocationLocationUnavailableError ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::location::LocationUnavailableError>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::location::LocationUnavailableError>)nativeLocationUnavailableError;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e857a0ba29b4a5c6374f2a6b140c1a24cce327bf87f87af6bf195e127abe5fa
+size 441

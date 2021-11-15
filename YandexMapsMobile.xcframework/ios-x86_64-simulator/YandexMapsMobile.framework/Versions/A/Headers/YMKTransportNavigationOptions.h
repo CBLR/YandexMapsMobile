@@ -1,24 +1,3 @@
-#import <YandexMapsMobile/YMKLocationLocationManager.h>
-#import <YandexMapsMobile/YMKTransportAnnotationLang.h>
-
-/// :nodoc:
-/**
- * :nodoc:
- */
-@interface YMKTransportNavigationOptions : NSObject
-
-@property (nonatomic, assign) NSInteger maxRoutes;
-
-/**
- * Optional field, can be nil.
- */
-@property (nonatomic, copy, nullable) NSNumber *language;
-
-@property (nonatomic, strong, nonnull) YMKLocationManager *locationManager;
-
-+ (nonnull YMKTransportNavigationOptions *)navigationOptionsWithMaxRoutes:( NSInteger)maxRoutes
-                                                                 language:(nullable NSNumber *)language
-                                                          locationManager:(nonnull YMKLocationManager *)locationManager;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:601b59150a72aefde7e3e457760410cd5f0aaff32e3d068d66be0638fb2ae143
+size 752

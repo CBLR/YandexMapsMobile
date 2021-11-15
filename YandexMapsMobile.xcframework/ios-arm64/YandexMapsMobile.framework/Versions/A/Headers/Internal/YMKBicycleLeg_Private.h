@@ -1,7 +1,3 @@
-#import <YandexMapsMobile/YMKBicycleLeg.h>
-
-#import <yandex/maps/mapkit/transport/bicycle/leg.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:999a8da09664c981d2228c74d24ad90816d9339498716debd0c0519f2ab876ed
+size 211

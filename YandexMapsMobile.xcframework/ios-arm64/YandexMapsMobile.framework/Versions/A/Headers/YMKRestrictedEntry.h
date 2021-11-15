@@ -1,33 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * Defines a point on a pedestrian path.
- */
-@interface YMKRestrictedEntry : NSObject
-
-/**
- * Index of the point in the section geometry.
- */
-@property (nonatomic, readonly) NSUInteger position;
-
-
-+ (nonnull YMKRestrictedEntry *)restrictedEntryWithPosition:( NSUInteger)position;
-
-
-@end
-
-/**
- * Defines a vector of points on a pedestrian path.
- */
-@interface YMKRestrictedEntriesContainer : NSObject
-
-/**
- * Vector of points on a pedestrian path.
- */
-@property (nonatomic, readonly, nonnull) NSArray<YMKRestrictedEntry *> *entries;
-
-
-+ (nonnull YMKRestrictedEntriesContainer *)restrictedEntriesContainerWithEntries:(nonnull NSArray<YMKRestrictedEntry *> *)entries;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:313115c387209159ff67e50cd43d5f28b312222b46176105ad243e34ffdd4df6
+size 711

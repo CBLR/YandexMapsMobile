@@ -1,23 +1,3 @@
-#import <YandexMapsMobile/YMKBitmapSession.h>
-
-/**
- * :nodoc:
- * Allows to download advert bitmap images. Obsolete. Use
- * ImageDownloader instead.
- */
-@interface YMKSearchBitmapDownloader : NSObject
-
-/**
- * Requests an image to display.
- *
- * @param id Image identifier.
- * @param scale Scale of resulting image.
- * @param bitmapListener Receive resulting image using this listener.
- *
- * @return Session handle that should be stored until image is received.
- */
-- (nonnull YMKBitmapSession *)requestBitmapWithId:(nonnull NSString *)id
-                                            scale:(float)scale
-                                   bitmapListener:(nonnull YMKBitmapSessionBitmapListener)bitmapListener;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4c7616e06803e0aa3247129b6d62bfb615621e3a3434da847b5bf69b17a415a
+size 712

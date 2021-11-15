@@ -1,7 +1,3 @@
-#import <YandexMapsMobile/YMKPersonalizedPoiTapInfo.h>
-
-#import <yandex/maps/mapkit/personalized_poi/personalized_poi_tap_info.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b57765acffa57a8cbcd6cd9df40796459cf1cbde546ba4409770424c864eb60
+size 244

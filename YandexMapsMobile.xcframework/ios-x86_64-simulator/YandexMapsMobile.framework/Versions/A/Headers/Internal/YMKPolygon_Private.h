@@ -1,14 +1,3 @@
-#import <YandexMapsMobile/YMKPolygon.h>
-
-#import <yandex/maps/mapkit/map/polygon.h>
-
-#import <memory>
-
-@interface YMKPolygonMapObject ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::map::PolygonMapObject>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::map::PolygonMapObject>)nativePolygonMapObject;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:34d5b85cceb9170354efd803bacbb027cf144cea3fdd7470bfd27a13b72af206
+size 382

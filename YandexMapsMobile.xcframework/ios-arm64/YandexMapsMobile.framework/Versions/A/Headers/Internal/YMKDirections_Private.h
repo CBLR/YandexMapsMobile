@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKDirections.h>
-
-#import <yandex/maps/mapkit/directions/directions.h>
-
-#import <memory>
-
-@interface YMKDirections ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::directions::Directions>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::directions::Directions>)nativeDirections;
-- (std::shared_ptr<::yandex::maps::mapkit::directions::Directions>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:6717d3d5e2706c561992b3d9fcc9598728e2d3e8f39d9a50a461466db8ad54bc
+size 460

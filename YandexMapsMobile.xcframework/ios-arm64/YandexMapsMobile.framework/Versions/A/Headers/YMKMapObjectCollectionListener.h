@@ -1,26 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@class YMKMapObject;
-
-/**
- * The map object collection can't be modified in callbacks. A
- * runtime::RuntimeError exception is thrown if this happens.
- */
-@protocol YMKMapObjectCollectionListener <NSObject>
-
-/**
- * Called every time a new map object is added to the collection.
- */
-- (void)onMapObjectAddedWithMapObject:(nonnull YMKMapObject *)mapObject;
-
-/**
- * Called every time a map object is removed from the collection.
- */
-- (void)onMapObjectRemovedWithMapObject:(nonnull YMKMapObject *)mapObject;
-
-/**
- * Called every time a map object is updated.
- */
-- (void)onMapObjectUpdatedWithMapObject:(nonnull YMKMapObject *)mapObject;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:779ef85ce5b564631619c7d16ce3cdfc6010f5646dbfbe385c75cd1fa7280138
+size 676

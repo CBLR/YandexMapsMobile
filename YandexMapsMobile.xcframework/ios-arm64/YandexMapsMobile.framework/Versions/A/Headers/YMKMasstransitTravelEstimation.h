@@ -1,24 +1,3 @@
-#import <YandexMapsMobile/YMKTime.h>
-
-/**
- * @brief Arrival and departure time estimations for time-dependent
- * routes or sections of time-dependent routes.
- */
-@interface YMKMasstransitTravelEstimation : NSObject
-
-/**
- * Departure time for a route or a route section.
- */
-@property (nonatomic, readonly, nonnull) YMKTime *departureTime;
-
-/**
- * Arrival time for a route or a route section.
- */
-@property (nonatomic, readonly, nonnull) YMKTime *arrivalTime;
-
-
-+ (nonnull YMKMasstransitTravelEstimation *)travelEstimationWithDepartureTime:(nonnull YMKTime *)departureTime
-                                                                  arrivalTime:(nonnull YMKTime *)arrivalTime;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:f830f70083f039df384aad412510b9e767254d2cf66303200d0bb976a62efde3
+size 689

@@ -1,29 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * The ID of a tile on the map.
- */
-@interface YMKTileId : NSObject
-
-/**
- * The number of the tile horizontally.
- */
-@property (nonatomic, readonly) NSUInteger x;
-
-/**
- * The number of the tile vertically.
- */
-@property (nonatomic, readonly) NSUInteger y;
-
-/**
- * The number of columns and rows to split the map into.
- */
-@property (nonatomic, readonly) NSUInteger z;
-
-
-+ (nonnull YMKTileId *)tileIdWithX:( NSUInteger)x
-                                 y:( NSUInteger)y
-                                 z:( NSUInteger)z;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6f37fd339d38add768fc4e4d15f23fdf35ff96de06f0b7816045568f865791e
+size 567

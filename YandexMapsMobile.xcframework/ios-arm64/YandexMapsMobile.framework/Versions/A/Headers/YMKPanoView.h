@@ -1,11 +1,3 @@
-#import <YandexMapsMobile/YMKPanoramaPlayer.h>
-#import <UIKit/UIKit.h>
-
-@interface YMKPanoView : UIView
-
-@property (strong, nonatomic, readonly) YMKPanoramaPlayer *player;
-
-- (id)initWithFrame:(CGRect)frame vulkanPreferred:(bool)vulkanPreferred;
-- (void)setNoninteractive:(bool)is;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:389c2121c3fd933eeb725e98401e74f9659c4cfa1b8443c93353d7dfa2507aec
+size 288

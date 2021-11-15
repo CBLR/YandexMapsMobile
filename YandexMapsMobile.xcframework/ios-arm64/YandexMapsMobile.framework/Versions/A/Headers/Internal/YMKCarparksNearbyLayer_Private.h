@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKCarparksNearbyLayer.h>
-
-#import <yandex/maps/mapkit/directions/carparks/carparks_nearby_layer.h>
-
-#import <memory>
-
-@interface YMKCarparksNearbyLayer ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::directions::carparks::CarparksNearbyLayer>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::directions::carparks::CarparksNearbyLayer>)nativeCarparksNearbyLayer;
-- (std::shared_ptr<::yandex::maps::mapkit::directions::carparks::CarparksNearbyLayer>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8a7e47bd6826409188792a51ed0f04ee78c18a7b0e46d62ed1c9424d6203425
+size 564

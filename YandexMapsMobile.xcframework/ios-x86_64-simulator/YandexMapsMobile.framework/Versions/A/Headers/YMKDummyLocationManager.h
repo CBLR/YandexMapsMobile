@@ -1,26 +1,3 @@
-#import <YandexMapsMobile/YMKLocationLocationManager.h>
-
-@class YMKLocation;
-
-/**
- * Provides the ability to set any location and notify all consumers of
- * this location.
- *
- * This is a very simple location manager that is responsible for
- * passing any locations via setLocation method and notifying all
- * consumers.
- *
- * Note: The main reason why we need this class is to allow the user to
- * set this LocationManager to Guide via setLocationManager, just to
- * correct any desirable location via Guide.
- */
-@interface YMKDummyLocationManager : YMKLocationManager
-
-/**
- * Sets a location and notifies all consumers of this location.
- *
- * @param location Any desirable location that we would like to provide.
- */
-- (void)setLocationWithLocation:(nonnull YMKLocation *)location;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fcab526e3f6548e4fa08e6a156973692ba75d7b43d0f902160a966c286e61be
+size 790

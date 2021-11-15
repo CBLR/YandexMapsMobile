@@ -1,19 +1,3 @@
-#import <YandexMapsMobile/YMKLocationLocationManager.h>
-#import <YandexMapsMobile/YRTSubscription.h>
-
-#import <yandex/maps/mapkit/location/location_manager.h>
-#import <yandex/maps/runtime/ios/object.h>
-
-#import <memory>
-
-@interface YMKLocationManager ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::location::LocationManager>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::location::LocationManager>)nativeLocationManager;
-- (std::shared_ptr<::yandex::maps::mapkit::location::LocationManager>)native;
-
-@end
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9cfa950d0b09c9d530ed3462bdf54038454795ed9c174ef52a75e38c314f3f0
+size 586

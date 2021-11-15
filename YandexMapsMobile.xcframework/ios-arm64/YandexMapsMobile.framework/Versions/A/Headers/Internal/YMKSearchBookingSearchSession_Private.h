@@ -1,31 +1,3 @@
-#import <YandexMapsMobile/YMKSearchBookingSearchSession.h>
-
-#import <yandex/maps/mapkit/search/booking_search_session.h>
-
-#import <memory>
-
-namespace yandex {
-namespace maps {
-namespace mapkit {
-namespace search {
-namespace ios {
-
-BookingSearchSession::OnBookingSearchResponse onBookingSearchResponse(
-    YMKSearchBookingSearchSessionBookingSearchHandler handler);
-BookingSearchSession::OnBookingSearchError onBookingSearchError(
-    YMKSearchBookingSearchSessionBookingSearchHandler handler);
-
-} // namespace ios
-} // namespace search
-} // namespace mapkit
-} // namespace maps
-} // namespace yandex
-
-@interface YMKSearchBookingSearchSession ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(std::unique_ptr<::yandex::maps::mapkit::search::BookingSearchSession>)native;
-
-- (::yandex::maps::mapkit::search::BookingSearchSession *)nativeBookingSearchSession;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4e7f4e72800b49e823c031b52dd61feba789e907fb93ccbaaa434d7b19a7f70
+size 887

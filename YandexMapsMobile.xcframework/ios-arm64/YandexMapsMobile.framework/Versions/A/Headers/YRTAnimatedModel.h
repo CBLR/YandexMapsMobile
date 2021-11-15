@@ -1,12 +1,3 @@
-#import <Foundation/Foundation.h>
-#import <YandexMapsMobile/YRTModelProvider.h>
-
-@interface YRTAnimatedModel : NSObject
-
-- (id)initWithLoopCount:(int)loopCount;
-- (id)initWithLoopCount:(int)loopCount frames:(NSArray*)frames;
-- (void)addFrameWithModel:(id<YRTModelProvider>)model duration:(NSTimeInterval)duration;
-- (int)loopCount;
-- (NSArray*)frames;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:f811f409c7b2405ae591fe988b1b34dac04cce1f23a61091576fd854d82cd87e
+size 358

@@ -1,27 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@class YMKIndoorPlan;
-
-/**
- * :nodoc:
- */
-@protocol YMKIndoorStateListener <NSObject>
-
-/**
- * Notifies when user view focuses on a new plan (@plan is NonNull).
- *
- * @param activePlan is valid until onActivePlanLeft call.
- */
-- (void)onActivePlanFocusedWithActivePlan:(nonnull YMKIndoorPlan *)activePlan;
-
-/**
- * Notifies when user view leaves focus on a current active plan.
- */
-- (void)onActivePlanLeft;
-
-/**
- * Notifies when the current active level is changed on the active plan.
- */
-- (void)onActiveLevelChangedWithActiveLevelId:(nonnull NSString *)activeLevelId;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f3ba98a59c8505269584f0d2d89891e404d7c7bde4b511d1a6c37de74966c12
+size 610

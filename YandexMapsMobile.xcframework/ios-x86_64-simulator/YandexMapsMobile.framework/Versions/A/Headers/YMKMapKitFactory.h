@@ -1,16 +1,3 @@
-#import <YandexMapsMobile/YMKMapkit.h>
-
-@interface YMKMapKit (Factory)
-
-/// Gets the MapKit instance.
-+ (nonnull instancetype)mapKit;
-+ (nonnull instancetype)sharedInstance;
-/// Sets the API key for MapKit SDK. Call this before [YMKMapKit mapKit] and [YMKMapKit sharedInstance]
-+ (void)setApiKey:(nonnull NSString*)apiKey;
-/// Sets locale for MapKit SDK. Call this before [YMKMapKit mapKit] and [YMKMapKit sharedInstance]
-+ (void)setLocale:(nullable NSString*)locale;
-/// Sets completion handler for background URL session.
-- (void)setCompletionHandler:(nonnull void (^)(void))completionHandler
-     forBackgroundURLSession:(nonnull NSString *)identifier;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:18cd972e67b5ae66496e228536b60ac3ddc3c978be52dc34776acfa65cd85f23
+size 662

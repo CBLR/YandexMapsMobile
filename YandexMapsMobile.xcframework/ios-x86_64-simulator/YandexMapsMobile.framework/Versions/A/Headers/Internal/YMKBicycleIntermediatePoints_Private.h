@@ -1,9 +1,3 @@
-#import <YandexMapsMobile/YMKBicycleIntermediatePoints.h>
-
-#import <yandex/maps/mapkit/transport/bicycle/intermediate_points.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:871b955aa3ba79aaf5db975040c99d3dd63f0902b7aed32364bfd952c25eb24f
+size 244

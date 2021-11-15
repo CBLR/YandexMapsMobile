@@ -1,17 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@class YMKGeoObjectTapEvent;
-
-/**
- * Retrieves the brief geoObject info when an object is tapped.
- */
-@protocol YMKLayersGeoObjectTapListener <NSObject>
-
-/**
- * Listener that retrieves brief geoObject info for the tapped object.
- * Returns false if the event wasn't handled. The event will be
- * propagated to the map.
- */
-- (BOOL)onObjectTapWithEvent:(nonnull YMKGeoObjectTapEvent *)event;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:25dbd1c59f42cab2ccbc81dc083ba9f35ef699aa5faa142fd4cf5694f43457c4
+size 432

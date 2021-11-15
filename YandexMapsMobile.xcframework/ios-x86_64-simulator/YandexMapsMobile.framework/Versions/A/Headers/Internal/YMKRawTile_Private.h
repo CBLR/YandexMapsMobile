@@ -1,7 +1,3 @@
-#import <YandexMapsMobile/YMKRawTile.h>
-
-#import <yandex/maps/mapkit/raw_tile.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a9b1d69cfc24ed1cf363d061b8ac67a3eff996b47b16b382e9186458d22cae1
+size 195

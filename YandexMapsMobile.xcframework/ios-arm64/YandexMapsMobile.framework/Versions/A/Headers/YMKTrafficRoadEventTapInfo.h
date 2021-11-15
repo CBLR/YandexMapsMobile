@@ -1,29 +1,3 @@
-#import <YandexMapsMobile/YMKRoadEventsEventTag.h>
-
-/**
- * Road event tap object meta information.
- */
-@interface YMKTrafficRoadEventTapInfo : NSObject
-
-/**
- * Road event identifier.
- */
-@property (nonatomic, readonly, nonnull) NSString *id;
-
-/**
- * Road event description.
- */
-@property (nonatomic, readonly, nonnull) NSString *descriptionText;
-
-/**
- * Road event tags.
- */
-@property (nonatomic, readonly, nonnull) NSArray<NSNumber *> *tags;
-
-
-+ (nonnull YMKTrafficRoadEventTapInfo *)roadEventTapInfoWithId:(nonnull NSString *)id
-                                               descriptionText:(nonnull NSString *)descriptionText
-                                                          tags:(nonnull NSArray<NSNumber *> *)tags;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e5b6a3da1314cc7285e812f6fc6259de4b8e09deb2e066cc345e930c187e82a
+size 737

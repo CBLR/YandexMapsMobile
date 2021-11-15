@@ -1,7 +1,3 @@
-#import <YandexMapsMobile/YMKTrafficRoadEventTapInfo.h>
-
-#import <yandex/maps/mapkit/traffic/road_event_tap_info.h>
-#import <yandex/maps/runtime/bindings/ios/to_native.h>
-#import <yandex/maps/runtime/bindings/ios/to_platform.h>
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:335cb2d678ece8116a0c2beaa40a15b452e311ef0288a2557143f99beeaaabba
+size 230

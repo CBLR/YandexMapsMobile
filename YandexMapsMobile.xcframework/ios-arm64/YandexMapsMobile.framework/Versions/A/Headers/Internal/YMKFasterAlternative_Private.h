@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKFasterAlternative.h>
-
-#import <yandex/maps/mapkit/directions/guidance/faster_alternative.h>
-
-#import <memory>
-
-@interface YMKFasterAlternative ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::directions::guidance::FasterAlternative>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::directions::guidance::FasterAlternative>)nativeFasterAlternative;
-- (std::shared_ptr<::yandex::maps::mapkit::directions::guidance::FasterAlternative>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:41600cc36cb1af3243f6a5ab49372e477b454ec7e7de1a5354b3445d006c4610
+size 549

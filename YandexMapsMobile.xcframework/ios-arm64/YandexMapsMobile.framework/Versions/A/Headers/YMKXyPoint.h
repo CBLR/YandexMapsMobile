@@ -1,23 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * World coordinates.
- */
-@interface YMKXYPoint : NSObject
-
-/**
- * The horizontal position of the point.
- */
-@property (nonatomic, readonly) double x;
-
-/**
- * The vertical position of the point.
- */
-@property (nonatomic, readonly) double y;
-
-
-+ (nonnull YMKXYPoint *)xYPointWithX:( double)x
-                                   y:( double)y;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0958b3d9845bdf4f9076a152d575374dc00e3725dc9dc0ef520977309a5df75
+size 386

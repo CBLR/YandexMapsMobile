@@ -1,28 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@class YMKCoverageRegion;
-
-/**
- * :nodoc:
- */
-typedef void(^YMKCoverageRegionsSessionResponseHandler)(
-    NSArray<YMKCoverageRegion *> * _Nullable regions,
-    NSError * _Nullable error);
-
-/**
- * :nodoc:
- * Allows to repeat or cancel the request for a list of regions.
- */
-@interface YMKCoverageRegionsSession : NSObject
-
-/**
- * Repeats the specified request with the same parameters.
- */
-- (void)retryWithResponseHandler:(nonnull YMKCoverageRegionsSessionResponseHandler)responseHandler;
-
-/**
- * Cancels the request.
- */
-- (void)cancel;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:89ad49b1013c5e803a7de3002b086acde06f7968eb9cdb8c5eb1aa524cbc9ab7
+size 580

@@ -1,19 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * Description to display.
- */
-@interface YMKDrivingDescription : NSObject
-
-/**
- * How to get a description.
- *
- * Optional field, can be nil.
- */
-@property (nonatomic, readonly, nullable) NSString *via;
-
-
-+ (nonnull YMKDrivingDescription *)descriptionWithVia:(nullable NSString *)via;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e368cbf08e03028e28ea51b59324d746a052f231747a921dd4c4adb5b5fc4dc
+size 332

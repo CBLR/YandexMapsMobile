@@ -1,17 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * Describes data attached to features in user layer.
- */
-@interface YMKUserData : NSObject
-
-/**
- * A dictionary of data.
- */
-@property (nonatomic, readonly, nonnull) NSDictionary<NSString *, NSString *> *data;
-
-
-+ (nonnull YMKUserData *)userDataWithData:(nonnull NSDictionary<NSString *, NSString *> *)data;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d12c6254afb23648f538d2029ce51c8a2b959eeb5887f041390138461fb1e74
+size 355

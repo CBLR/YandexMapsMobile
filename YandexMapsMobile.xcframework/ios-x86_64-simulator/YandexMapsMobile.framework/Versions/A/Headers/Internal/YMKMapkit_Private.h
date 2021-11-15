@@ -1,16 +1,3 @@
-#import <YandexMapsMobile/YMKMapkit.h>
-
-#import <yandex/maps/mapkit/mapkit.h>
-#import <yandex/maps/runtime/ios/object.h>
-
-#import <memory>
-
-@interface YMKMapKit ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::MapKit>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::MapKit>)nativeMapKit;
-- (std::shared_ptr<::yandex::maps::mapkit::MapKit>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:44a9677107bb7f47010da3588ab4d989e35e8ff360dc6d1a39a97fa3704a0d63
+size 428

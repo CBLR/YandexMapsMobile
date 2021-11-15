@@ -1,20 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * Specifies the way provided zoom focus point affects gestures.
- */
-typedef NS_ENUM(NSUInteger, YMKZoomFocusPointMode) {
-    /**
-     * Only "double tap" (zoom in) and "tap with two fingers" (zoom out) use
-     * provided zoom focus point. Other zoom gestures ignore it and continue
-     * to use their source point for transformation.
-     */
-    YMKZoomFocusPointModeAffectsTapGestures,
-    /**
-     * All zoom gestures: pinch and stretch, tap and swipe, double tap, tap
-     * with two fingers use provided zoom focus point and ignore their
-     * source point. Note: Pinch and stretch gesture will also suppress
-     * scroll and rotation when this mode is on.
-     */
-    YMKZoomFocusPointModeAffectsAllGestures
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:52b6aa795eaff738de3187c4cb1418a0a36328374a954201443dce2e744d8075
+size 760

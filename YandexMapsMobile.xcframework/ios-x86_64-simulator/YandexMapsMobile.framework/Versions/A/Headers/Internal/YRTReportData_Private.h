@@ -1,25 +1,3 @@
-#import <YandexMapsMobile/YRTReportData.h>
-
-#import <yandex/maps/runtime/recording/report_data.h>
-
-#import <memory>
-
-@interface YRTReportData ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::runtime::recording::ReportData>&)native;
-
-- (std::shared_ptr<::yandex::maps::runtime::recording::ReportData>)nativeReportData;
-- (std::shared_ptr<::yandex::maps::runtime::recording::ReportData>)native;
-
-@end
-
-@interface YRTReportFactory ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::runtime::recording::ReportFactory>&)native;
-
-- (std::shared_ptr<::yandex::maps::runtime::recording::ReportFactory>)nativeReportFactory;
-- (std::shared_ptr<::yandex::maps::runtime::recording::ReportFactory>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:833d6224b3381735a1617a202759d3f8218a300f72d5457ef09006d356a27f7e
+size 821

@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKVehicleData.h>
-
-#import <yandex/maps/mapkit/transport/masstransit/vehicle_data.h>
-
-#import <memory>
-
-@interface YMKVehicleData ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::transport::masstransit::VehicleData>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::transport::masstransit::VehicleData>)nativeVehicleData;
-- (std::shared_ptr<::yandex::maps::mapkit::transport::masstransit::VehicleData>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:5acdb20bc9ef0cef44d092ccfd46ee80a7e9192048316b4ec901694a03104775
+size 515

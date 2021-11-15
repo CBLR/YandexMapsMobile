@@ -1,16 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * The way rotation is handled.
- */
-typedef NS_ENUM(NSUInteger, YMKRotationType) {
-    /**
-     * Ignores the placemark direction; stable in screen space.
-     */
-    YMKRotationTypeNoRotation,
-    /**
-     * Follows the placemark direction. For non-flat placemarks, the
-     * direction vector is projected onto the screen plane.
-     */
-    YMKRotationTypeRotate
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ef098c479963a5f7f0e71991f8042d0ab7495ba3678adebfc7b91d9ccaa2700
+size 407

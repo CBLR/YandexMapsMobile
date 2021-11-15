@@ -1,18 +1,3 @@
-#import <YandexMapsMobile/YMKSearchCollectionCommon.h>
-
-/**
- * :nodoc:
- * Snippet with collections geo object belongs to.
- */
-@interface YMKSearchDiscovery2xObjectMetadata : NSObject
-
-/**
- * List of collections geo object belongs to.
- */
-@property (nonatomic, readonly, nonnull) NSArray<YMKSearchCollection *> *collections;
-
-
-+ (nonnull YMKSearchDiscovery2xObjectMetadata *)discovery2xObjectMetadataWithCollections:(nonnull NSArray<YMKSearchCollection *> *)collections;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc90cba4dc1d8a8a00d32557cda4f374315b38239bf85168f52c74481372722f
+size 477

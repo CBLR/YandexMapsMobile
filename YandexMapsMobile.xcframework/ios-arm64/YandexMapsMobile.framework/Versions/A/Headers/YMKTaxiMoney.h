@@ -1,20 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * :nodoc:
- */
-@interface YMKTaxiMoney : NSObject
-
-@property (nonatomic, readonly) double value;
-
-@property (nonatomic, readonly, nonnull) NSString *text;
-
-@property (nonatomic, readonly, nonnull) NSString *currency;
-
-
-+ (nonnull YMKTaxiMoney *)moneyWithValue:( double)value
-                                    text:(nonnull NSString *)text
-                                currency:(nonnull NSString *)currency;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:bcf3eb046639919011f3c7d3c94c2e91128433af8a2f1aeffbc432ee47ec3c0f
+size 458

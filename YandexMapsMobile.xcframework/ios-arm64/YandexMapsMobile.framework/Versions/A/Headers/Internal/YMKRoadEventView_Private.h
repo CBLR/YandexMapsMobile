@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKRoadEventView.h>
-
-#import <yandex/maps/mapkit/directions/navigation_layer/road_event_view.h>
-
-#import <memory>
-
-@interface YMKRoadEventView ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::directions::navigation_layer::RoadEventView>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::directions::navigation_layer::RoadEventView>)nativeRoadEventView;
-- (std::shared_ptr<::yandex::maps::mapkit::directions::navigation_layer::RoadEventView>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:c7828d1839a37b9014933af799dd5c76e1bfa724a5cf043cc2748151c55f5321
+size 554

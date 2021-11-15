@@ -1,31 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * Desired departure/arrival time settings. Only one the departureTime
- * and arrivalTime fields should be specified.
- */
-@interface YMKTimeOptions : NSObject
-
-/**
- * Desired departure time in UTC for a time-dependent route request. The
- * value is specified in milliseconds. This option cannot be used with
- * arrivalTime.
- *
- * Optional field, can be nil.
- */
-@property (nonatomic, copy, nullable) NSDate *departureTime;
-
-/**
- * Desired arrival time in UTC for a time-dependent route request. The
- * value is specified in milliseconds. This option cannot be used with
- * departureTime.
- *
- * Optional field, can be nil.
- */
-@property (nonatomic, copy, nullable) NSDate *arrivalTime;
-
-+ (nonnull YMKTimeOptions *)timeOptionsWithDepartureTime:(nullable NSDate *)departureTime
-                                             arrivalTime:(nullable NSDate *)arrivalTime;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:376bd29738a25028dc809e8cc82a82b54368ea017bd0289a744f406adee2d2fb
+size 911

@@ -1,23 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * Single chain (group of companies) description.
- */
-@interface YMKSearchChain : NSObject
-
-/**
- * Chain identifier.
- */
-@property (nonatomic, readonly, nonnull) NSString *id;
-
-/**
- * Chain name.
- */
-@property (nonatomic, readonly, nonnull) NSString *name;
-
-
-+ (nonnull YMKSearchChain *)chainWithId:(nonnull NSString *)id
-                                   name:(nonnull NSString *)name;
-
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:707a0e627867424605b946f43f1397335bc3597421bfc98eb0b65e6d80a4e43e
+size 434

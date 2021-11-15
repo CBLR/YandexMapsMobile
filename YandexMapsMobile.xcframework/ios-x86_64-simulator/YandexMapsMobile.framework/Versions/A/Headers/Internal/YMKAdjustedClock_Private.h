@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKAdjustedClock.h>
-
-#import <yandex/maps/mapkit/transport/time/adjusted_clock.h>
-
-#import <memory>
-
-@interface YMKAdjustedClock ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::transport::time::AdjustedClock>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::transport::time::AdjustedClock>)nativeAdjustedClock;
-- (std::shared_ptr<::yandex::maps::mapkit::transport::time::AdjustedClock>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b98a1d49a69686e91351007f3a31bfbb9f55cf661e6be619d4cb4c6b5f75c7b
+size 501

@@ -1,15 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * The reason of the camera update.
- */
-typedef NS_ENUM(NSUInteger, YMKCameraUpdateReason) {
-    /**
-     * User manipulation, for example: zoom, scroll, rotate, fling.
-     */
-    YMKCameraUpdateReasonGestures,
-    /**
-     * Application, by calling the map::move method.
-     */
-    YMKCameraUpdateReasonApplication
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:be39ddba7c35c54c0274ede16c91963819434442f3048a468e47d67bbd00cee5
+size 360

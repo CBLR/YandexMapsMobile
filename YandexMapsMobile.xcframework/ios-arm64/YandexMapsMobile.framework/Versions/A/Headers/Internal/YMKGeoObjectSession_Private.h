@@ -1,29 +1,3 @@
-#import <YandexMapsMobile/YMKGeoObjectSession.h>
-
-#import <yandex/maps/mapkit/geo_object_session.h>
-
-#import <memory>
-
-namespace yandex {
-namespace maps {
-namespace mapkit {
-namespace ios {
-
-GeoObjectSession::OnGeoObjectResult onGeoObjectResult(
-    YMKGeoObjectSessionGeoObjectHandler handler);
-GeoObjectSession::OnGeoObjectError onGeoObjectError(
-    YMKGeoObjectSessionGeoObjectHandler handler);
-
-} // namespace ios
-} // namespace mapkit
-} // namespace maps
-} // namespace yandex
-
-@interface YMKGeoObjectSession ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(std::unique_ptr<::yandex::maps::mapkit::GeoObjectSession>)native;
-
-- (::yandex::maps::mapkit::GeoObjectSession *)nativeGeoObjectSession;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:da37c153a9c32591d30d37f6226ef044b5008d8ed5a40be9ebe0501c63a11876
+size 731

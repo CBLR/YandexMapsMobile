@@ -1,26 +1,3 @@
-#pragma once
-
-#import <UIKit/UIKit.h>
-
-typedef NS_ENUM(NSUInteger, YRTTouchEventType) {
-    YRTTouchEventTypeBegan,
-    YRTTouchEventTypeEnded,
-    YRTTouchEventTypeMoved,
-    YRTTouchEventTypeCancelled
-};
-
-@interface YRTTouchEvent : NSObject
-
-@property (nonatomic, assign) YRTTouchEventType type;
-@property (nonatomic, assign) NSTimeInterval timestamp;
-@property (nonatomic, strong) NSDictionary *pointers;
-
-- (instancetype)initWithEventType:(YRTTouchEventType)type
-                        timestamp:(NSTimeInterval)timestamp
-                   scaledCgPoints:(NSDictionary *)scaledCgPoints;
-
-- (instancetype)initWithEvent:(UIEvent *)event
-                         type:(YRTTouchEventType)type
-                         view:(UIView *)view;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fb6e4f17a288832e442737b0a3f348e267cdbc50a9d9c5f94233d03c3ebdb29
+size 747

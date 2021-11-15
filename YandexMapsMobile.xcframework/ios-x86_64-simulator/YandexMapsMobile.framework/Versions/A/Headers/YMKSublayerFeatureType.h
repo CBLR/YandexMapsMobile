@@ -1,27 +1,3 @@
-#import <Foundation/Foundation.h>
-
-/**
- * Describes the type of features stored in the sublayer.
- */
-typedef NS_ENUM(NSUInteger, YMKSublayerFeatureType) {
-    /**
-     * Polygons, polylines and raster tiles.
-     */
-    YMKSublayerFeatureTypeGround,
-    /**
-     * 3D buildings and models.
-     */
-    YMKSublayerFeatureTypeModels,
-    /**
-     * Screen and flat placemarks (excluding selected).
-     */
-    YMKSublayerFeatureTypePlacemarks,
-    /**
-     * Labels for polylines and points.
-     */
-    YMKSublayerFeatureTypeLabels,
-    /**
-     * Selected placemarks.
-     */
-    YMKSublayerFeatureTypeSelectedPlacemarks
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:dca8bc2d9217524041d5f477c72084d32ab9462d4834d2f3ae0807c2cd21ba0c
+size 624

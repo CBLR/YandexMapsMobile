@@ -1,15 +1,3 @@
-#import <YandexMapsMobile/YMKSublayerManager.h>
-
-#import <yandex/maps/mapkit/map/sublayer_manager.h>
-
-#import <memory>
-
-@interface YMKSublayerManager ()
-
-- (id)initWithWrappedNative:(NSValue *)native;
-- (id)initWithNative:(const std::shared_ptr<::yandex::maps::mapkit::map::SublayerManager>&)native;
-
-- (std::shared_ptr<::yandex::maps::mapkit::map::SublayerManager>)nativeSublayerManager;
-- (std::shared_ptr<::yandex::maps::mapkit::map::SublayerManager>)native;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8c403f791ccb1a136567c4132a3211be64e417e5ae2554d682be58d4de88c00
+size 468
